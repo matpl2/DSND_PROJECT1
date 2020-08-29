@@ -9,7 +9,7 @@ Purpose of this project is to write a blog that will be supported by data exerci
   - data SEA.zip - zip file with data exported from Kaggle.
  
 ## Purpose and intent
-Dataset is available here: https://www.kaggle.com/airbnb/seattle/data. Purpose of this exercise is to find answer to 3 questions (provide 3 insights):
+Dataset is available here: https://www.kaggle.com/airbnb/seattle/data. Purpose of this excercise is to find answer to 3 questions (provide 3 insights):
 
 Question 1 - Does cleaning fee impact cleanliness that was assessed by visitors in the review scores cleanliness rank?
 
@@ -28,7 +28,10 @@ Data analysis was executed in a Jupyter notebook that operates on Python 3 Kerne
 * seaborn - https://seaborn.pydata.org/
 
 ## Analytics Process
-Process outlined in the Project file follows the CRISP-DM Process (Cross Industry Process for Data Mining). You can see inside the file that multiple steps were taken to prepare data: drop nan values, change data types, or remove special characters from the data. File was documented with comments therefore each step has instruction associated with it. 
+Process outlied in the Project file follows CRISP-DM Process (Cross Industry Process for Data Mining). You can see inside the file that multiple steps were taken to prepare data: drop nan values, change data types, or remove special characters from the data. File was documented with comments therefore each step has instruction associated with it. 
 
 ## Outcome of the analysis
-Analysis has provided answers to 3 business questions. You are encouraged to dive more into the dataset.
+Analysis has provded answer to 3 business questions. You are encuraged to dive more into the dataset. More details can be found in my post:
+
+https://medium.com/@matploskonka/airbnb-and-seattle-what-can-you-get-from-this-match-a6c813baa3c7
+
