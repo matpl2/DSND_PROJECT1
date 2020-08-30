@@ -29,6 +29,7 @@ Data analysis was executed in a Jupyter notebook that operates on Python 3 Kerne
 
 For the purpose of this excercise I have created two functions: removecharacter and movetodtype.
 Specification of these functions are:
+
 removecharacter  - This function removes string [a] in colum names [cols] provided as a list for a given panda dataframe [df]. cols must be provided as a list in form ['a','b','c'].
 
 movetodtype  - This function convert to given format [form] any colum names [cols] provided as a list for a given panda dataframe [df]. cols must be provided as a list in form ['a','b','c'] while form needs to be valid pandas data type like 'str' or 'float64'.
