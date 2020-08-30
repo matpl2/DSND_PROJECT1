@@ -27,6 +27,11 @@ Data analysis was executed in a Jupyter notebook that operates on Python 3 Kerne
 * sklearn modules: linelar_model, r2_score, model_selection - https://scikit-learn.org/stable/
 * seaborn - https://seaborn.pydata.org/
 
+For the purpose of this excercise I have created two functions: removecharacter and movetodtype.
+Specification of these functions are:
+removecharacter  - This function removes string [a] in colum names [cols] provided as a list for a given panda dataframe [df]. cols must be provided as a list in form ['a','b','c'].
+movetodtype  - This function convert to given format [form] any colum names [cols] provided as a list for a given panda dataframe [df]. cols must be provided as a list in form ['a','b','c'] while form needs to be valid pandas data type like 'str' or 'float64'.
+
 ## Analytics Process
 Process outlied in the Project file follows CRISP-DM Process (Cross Industry Process for Data Mining). You can see inside the file that multiple steps were taken to prepare data: drop nan values, change data types, or remove special characters from the data. File was documented with comments therefore each step has instruction associated with it. 
 
